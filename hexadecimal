@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	 double sayi;
+
+    printf("Ondalik bir sayi giriniz: ");
+    scanf("%lf", &sayi);
+
+    printf("Girilen sayi onaltilik olarak: %a\n", sayi);
+	
+	return 0;
+}
