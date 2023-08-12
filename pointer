@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	int sayi=10;
+	int sayi2=20;
+	
+	
+	printf("%d\n",sayi);
+	printf("%d\n",sayi2);
+
+	printf("\n\n\n\t\t Bellek adresleri\n\n");
+	printf("%x\n",&sayi);
+	printf("%x\n",&sayi2);
